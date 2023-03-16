@@ -1,0 +1,160 @@
+body {
+
+    font-family: 'Satisfy', serif;
+    display: grid;
+
+}
+
+.background-style {
+    background: url("assets/super_hero.jpg") no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+
+}
+
+.brush-wrap {
+    position: relative;
+    display: inline-block;
+    padding: 3rem;
+}
+
+
+
+.brush-wrap p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 250px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    color: #FF0000;
+    font-style: bold;
+    font-size: 55px;
+    background-color: #6495ED;
+    height: 200px;
+    width: 750px;
+    opacity: 0.9;
+    border-radius: 5px;
+    border: solid 3px;
+    border-color: #FFD700;
+    filter: drop-shadow(0px 0px 4px black);
+
+}
+
+
+.links-grid {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 20px;
+    background-color: #6495ED;
+    opacity: 0.8;
+    border-radius: 5px;
+    border: solid 3px;
+    border-color: #FFD700;
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.nav-link a {
+    font-family: 'Satisfy', serif;
+    color: #FF0000;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all .4s ease;
+}
+
+
+a:hover {
+    color: #FFD700;
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+}
+
+/* This padding isn't working */
+/* .about-me-body h1:first-child {
+    margin-bottom: -100px;
+}
+
+.about-me-body h1:second-child {
+    margin-top: -60px;
+} */
+
+
+.about-me-body span {
+    font-size: x-large;
+}
+
+
+
+h1 {
+    color: #FF0000;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    font-size: 32px;
+    width: 62%;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 3px black);
+    font-family: "shantell sans", serif;
+    opacity: 0.9;
+    border: solid 3px;
+    border-color: #FFD700;
+}
+
+h3 {
+    font-family: 'shantell sans', serif;
+
+}
+
+.left-sidebar-container {
+    display: flex;
+    border-radius: 5px;
+    width: 55%;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 100%;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    margin-left: 22%;
+    border: solid 3px;
+    border-color: #FFD700;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li::marker {
+    color: #FFD700;
+    font-size: xx-large;
+}
+
+
+
+
+.footer-container {
+
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    height: 100px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: #6495ED;
+    border: solid 3px;
+    border-color: #FFD700;
+}
